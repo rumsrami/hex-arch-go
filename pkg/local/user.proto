@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "github.com/rhass99/katz/pkg/auth/local/user";
+option go_package = "github.com/rhass99/katz/pkg/local/user";
 
 package user;
 
