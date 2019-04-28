@@ -1,0 +1,38 @@
+syntax = "proto3";
+option go_package = "github.com/rhass99/katz/pkg/auth/local/user";
+
+package user;
+
+message SignUpRequest {
+    string username = 1;
+    string firstname = 2;
+    string lastname = 3;
+    string email = 4;
+    string password = 5;
+}
+
+message SignInRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message ErrorMessage {
+    string message = 1;
+    int32 code = 2;
+}
+
+message User {
+    string username = 1;
+    string email = 2;
+}
+
+message AuthResponse {
+    User user = 1;
+    string token = 2;
+    ErrorMessage error = 3;
+}
+
+service Auth {
+    rpc signUp(SignUpRequest) returns (AuthResponse);
+    rpc signIn(SignInRequest) returns (AuthResponse);
+}
