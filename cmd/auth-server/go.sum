@@ -1,1 +1,3 @@
 github.com/rhass99/katz v0.0.0-20190428034034-4ec049cd5583 h1:9aZ2qypM2+cF5QL/hx43+na7jAD5zNmFP4A6I5b4AFc=
+github.com/rhass99/katz v0.0.0-20190428040025-4ce1f0bd6fae h1:SVmwehnR5lO1Fb0IVtO8dCX2YEKMDbKsERH5CMEpohs=
+github.com/rhass99/katz/pkg/auth/local v0.0.0-20190428040025-4ce1f0bd6fae h1:kRIq0hHM42InqRGIcwq+HWKEkzMdc/jmYOkBEnU+L2g=
