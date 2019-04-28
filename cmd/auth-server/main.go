@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/rhass99/katz/pkg/local/user"
+	"github.com/rhass99/katz/pkg/auth/local"
 )
 
 func main() {
-	user.NewService()
+	local.NewService()
 }

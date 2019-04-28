@@ -1,7 +1,7 @@
 syntax = "proto3";
-option go_package = "github.com/rhass99/katz/pkg/local/user";
+option go_package = "github.com/rhass99/katz/pkg/auth/local";
 
-package user;
+package local;
 
 message SignUpRequest {
     string username = 1;
