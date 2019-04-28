@@ -15,7 +15,7 @@
 *.dll
 *.so
 *.dylib
-cmd/auth-server/main.go
+cmd/auth-server/auth-server
 
 # Test binary, built with `go test -c`
 *.test
