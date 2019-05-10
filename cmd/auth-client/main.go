@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/rhass99/katz/pkg/auth/local"
-	"github.com/rhass99/katz/pkg/http/rpc/client"
+	"github.com/rumsrami/hex-arch-go/pkg/auth/local"
+	"github.com/rumsrami/hex-arch-go/pkg/http/rpc/client"
 )
 
 

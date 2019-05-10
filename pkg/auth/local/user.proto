@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "github.com/rhass99/katz/pkg/auth/local";
+option go_package = "github.com/rumsrami/hex-arch-go/pkg/auth/local";
 
 package local;
 

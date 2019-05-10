@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github.com/rhass99/katz/pkg/auth/local"
-	"github.com/rhass99/katz/pkg/http/rpc/server"
-	"github.com/rhass99/katz/pkg/storage/bolt"
+	"github.com/rumsrami/hex-arch-go/pkg/auth/local"
+	"github.com/rumsrami/hex-arch-go/pkg/http/rpc/server"
+	_"github.com/rumsrami/hex-arch-go/pkg/storage/bolt"
 )
 
 func main() {
@@ -13,7 +13,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Error listening %v", err)
 	}
-	s := new(bolt.Storage)
+	//s := new(bolt.Storage)
 	
 	local.NewGRPCService(lis)
 }

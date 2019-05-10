@@ -1,7 +1,7 @@
 package bolt
 
 import (
-	"github.com/rhass99/katz/pkg/auth/local"
+	"github.com/rumsrami/hex-arch-go/pkg/auth/local"
 )
 
 // Storage into a bbolt database
